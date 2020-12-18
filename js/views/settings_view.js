@@ -136,6 +136,12 @@
         value: window.initialData.countMutedConversations,
         setFn: window.setCountMutedConversations,
       });
+      new RadioButtonGroupView({
+        el: this.$('.enter-key-preference'),
+        name: 'enter-key-preference',
+        value: window.initialData.enterKeyPreference,
+        setFn: window.setEnterKeyPreference,
+      });
       new CheckboxView({
         el: this.$('.spell-check-setting'),
         name: 'spell-check-setting',
@@ -214,6 +220,9 @@
         theme: i18n('theme'),
         notifications: i18n('notifications'),
         notificationSettingsDialog: i18n('notificationSettingsDialog'),
+        enterKeyPreferenceDialog: i18n('enterKeyPreferenceDialog'),
+        enterKeyPreferenceNewLine: i18n('enterKeyPreferenceNewLine'),
+        enterKeyPreferenceSend: i18n('enterKeyPreferenceSend'),
         settings: i18n('Keyboard--preferences'),
         disableNotifications: i18n('disableNotifications'),
         nameAndMessage: i18n('nameAndMessage'),

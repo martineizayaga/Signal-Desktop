@@ -35,6 +35,7 @@ const getInitialData = async () => ({
   notificationDrawAttention: await window.getNotificationDrawAttention(),
   countMutedConversations: await window.getCountMutedConversations(),
 
+  enterKeyPreference: await window.getEnterKeyPreference(),
   spellCheck: await window.getSpellCheck(),
 
   incomingCallNotification: await window.getIncomingCallNotification(),

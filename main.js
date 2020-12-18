@@ -1290,6 +1290,8 @@ installSettingsSetter('audio-notification');
 installSettingsGetter('badge-count-muted-conversations');
 installSettingsSetter('badge-count-muted-conversations');
 
+installSettingsGetter('enter-key-preference');
+installSettingsSetter('enter-key-preference');
 installSettingsGetter('spell-check');
 installSettingsSetter('spell-check');
 

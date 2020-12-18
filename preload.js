@@ -186,6 +186,8 @@ try {
       ipc.send('get-badge-count-muted-conversations');
     });
 
+  installGetter('enter-key-preference', 'getEnterKeyPreference');
+  installSetter('enter-key-preference', 'setEnterKeyPreference');
   installGetter('spell-check', 'getSpellCheck');
   installSetter('spell-check', 'setSpellCheck');
 

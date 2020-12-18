@@ -1406,6 +1406,18 @@
     "message": "New Message",
     "description": "Displayed in notifications for only 1 message"
   },
+  "enterKeyPreferenceDialog": {
+    "message": "When writing a message, press Enter to:",
+    "description": "Explain the purpose of the enter key preference"
+  },
+  "enterKeyPreferenceNewLine": {
+    "message": "Start a new line",
+    "description": "Label for setting enter key preference to new line"
+  },
+  "enterKeyPreferenceSend": {
+    "message": "Send the message",
+    "description": "Label for setting enter key preference to send"
+  },
   "notificationSenderInGroup": {
     "message": "$sender$ in $group$",
     "description": "Displayed in notifications for messages in a group",

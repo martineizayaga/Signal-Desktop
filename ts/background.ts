@@ -405,6 +405,10 @@ type WhatIsThis = import('./window.d').WhatIsThis;
       setIncomingCallNotification: (value: WhatIsThis) =>
         window.storage.put('incoming-call-notification', value),
 
+      getEnterKeyPreference: () =>
+        window.storage.get('enter-key-preference', 'send'),
+      setEnterKeyPreference: (value: WhatIsThis) =>
+        window.storage.put('enter-key-preference', value),
       getSpellCheck: () => window.storage.get('spell-check', true),
       setSpellCheck: (value: WhatIsThis) => {
         window.storage.put('spell-check', value);

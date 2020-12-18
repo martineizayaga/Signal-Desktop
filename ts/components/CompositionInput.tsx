@@ -272,6 +272,10 @@ export const CompositionInput: React.ComponentType<Props> = props => {
       return true;
     }
 
+    if (window.Events.getEnterKeyPreference() === 'new-line') {
+      return true;
+    }
+
     submit();
 
     return false;

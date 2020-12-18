@@ -55,6 +55,8 @@ window.setThemeSetting = makeSetter('theme-setting');
 window.getHideMenuBar = makeGetter('hide-menu-bar');
 window.setHideMenuBar = makeSetter('hide-menu-bar');
 
+window.getEnterKeyPreference = makeGetter('enter-key-preference');
+window.setEnterKeyPreference = makeSetter('enter-key-preference');
 window.getSpellCheck = makeGetter('spell-check');
 window.setSpellCheck = makeSetter('spell-check');
 

@@ -111,6 +111,18 @@
     </div>
     <hr>
       <h3>{{ generalHeader }}</h3>
+      <div class='enter-key-preference'>
+        <p>{{ enterKeyPreferenceDialog }}</p>
+        <div>
+          <input type='radio' name='enter-key-preferences' id='enter-key-preference-send'  value='send'/>
+          <label for='enter-key-preference-send'>{{ enterKeyPreferenceSend }} </label>
+        </div>
+        <div>
+          <input type='radio' name='enter-key-preferences' id='enter-key-preference-new-line' value='new-line'>
+          <label for='enter-key-preference-new-line'>{{ enterKeyPreferenceNewLine }} </label>
+        </div>
+      </div>
+      <br>
       <div class='spell-check-setting'>
         <input type='checkbox' name='spell-check-setting' id='spell-check-setting' />
         <label for='spell-check-setting'>{{ spellCheckDescription }}</label>
